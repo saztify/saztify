@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.w3-row-padding img {
+  margin-bottom: 12px;
+}
+
+.bgimg {
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  background-image: url("images/background.jpg");
+  min-height: 100vh;
+}
+
+.container {
+  margin-left: 20%;
+  padding: 48px;
+}
+
+.sidebar {
+  position: fixed;
+  width: 20%;
+  background-color: #f1f1f1;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar a:hover {
+  background-color: #ddd;
+}
+
+.content {
+  margin-left: 20%;
+  padding: 16px;
+  height: auto;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.menu-icon:hover {
+  color: #45a049;
+}
+
+.header {
+  text-align: center;
+  padding: 128px 16px;
+  background-color: #f9f9f9;
+}
+
+.header h1 {
+  font-size: 48px;
+  color: #333;
+}
+
+.header p {
+  font-size: 24px;
+  color: #777;
+}
+
+.skills {
+  margin-top: 32px;
+}
+
+.skills p {
+  margin-bottom: 8px;
+}
+
+.skills .w3-light-grey {
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.skills .w3-dark-grey {
+  height: 100%;
+  border-radius: 4px;
+  background-color: #45a049;
+}
+
+.testimonials {
+  margin-top: 32px;
+}
+
+.testimonials .w3-left {
+  margin-right: 16px;
+}
+
+.contact {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.contact p {
+  margin-bottom: 16px;
+}
+
+.contact form {
+  margin-top: 16px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.contact form button {
+  background-color: #45a049;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact form button:hover {
+  background-color: #4CAF50;
+}
+
+.footer {
+  padding: 48px 16px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.footer i {
+  margin: 8px;
+  font-size: 24px;
+  color: #333;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #888;
+}
+
+@media screen and (max-width: 600px) {
+  .container, .content {
+    margin-left: 0;
+    padding: 12px;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  .menu-icon {
+    top: 12px;
+    right: 12px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+  <a href="index.html">Home</a>
+  <a href="hobby.html">Hobby</a>
+	<a href="About Me.html">About me</a>
+	<a href="intrest.html">interest</a>
+  <a href="professional interest.html">Professional interest</a>
+	<a href="Abstract.html">Abstract</a>
+</div>
+
+<div class="content">
+
+
+  <div class="header"><img src="images/profile pic.jpg" width="300" height="300" alt=""/>
+    <h1>Syahid Al-amin</h1>
+    <p>your future web designer</p>
+  </div>
+
+</div>
+
+<script>
+function toggleSidebar() {
+  var sidebar = document.querySelector(".sidebar");
+  sidebar.classList.toggle("active");
+}
+</script>
+
+<footer class="footer">
+  <i class="fa fa-facebook"><a href="https://www.facebook.com/"> Facebook</a></i>
+  <i class="fa fa-twitter"><a href="https://twitter.com/"> Twitter</a></i>
+   <i class="fa fa-instagram"><a href="https://www.instagram.com/"> Instagram</a></i>
+   <p>&copy; syahid_21b10i021@copyright.2023</p>
+</footer>
+
+</body>
+</html>
